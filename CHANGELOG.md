@@ -1,5 +1,26 @@
 # Changelog
 
+## 3.13.0
+
+### Minor Changes
+
+-   c8b234a: Add a delete button to the Cline Rules modal to delete rule files
+-   fb3105f: Added chunking to terminal outputs
+-   180ebda: Add an edit button to the Cline Rules toggle modal to open rule files
+-   450583c: Add modal UI for toggling Cline Rules
+
+### Patch Changes
+
+-   022fdf4: Detect Ctrl+C termination of terminal activity on long running commands
+-   4d696f3: gRPC over vscode message bus to make messaging better
+-   c021b64: Allow user to modify a previous message to continue chat
+-   6127443: Add command to focus chat input
+-   dd84bda: fix vertexai token count
+-   01a4873: Allow user to send context with an option selection
+-   6c5b99d: Safer check for xAI reasoning content
+-   4add380: Readme update
+-   0212081: Add OpenAI o3 & 4o-mini
+
 ## [3.12.3]
 
 -   Add copy button to MermaidBlock component (Thanks @cacosub7!)
