@@ -2,15 +2,10 @@
 
 ## 3.13.0
 
-### Minor Changes
-
 -   c8b234a: Add a delete button to the Cline Rules modal to delete rule files
 -   fb3105f: Added chunking to terminal outputs
 -   180ebda: Add an edit button to the Cline Rules toggle modal to open rule files
 -   450583c: Add modal UI for toggling Cline Rules
-
-### Patch Changes
-
 -   022fdf4: Detect Ctrl+C termination of terminal activity on long running commands
 -   4d696f3: gRPC over vscode message bus to make messaging better
 -   c021b64: Allow user to modify a previous message to continue chat
